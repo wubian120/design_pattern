@@ -12,11 +12,11 @@ public class Test {
 
 
         Coffee sugerMilkCoffe = new MilkDecorator(new SugarDecorator(new BlackCoffee()));
-
         double price = sugerMilkCoffe.getPrice();
-
+        //price = 6;
 //        assert(sugerMilkCoffe.getPrice() == 0d);
 
         System.out.println("end");
     }
 }
+
